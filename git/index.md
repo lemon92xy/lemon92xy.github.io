@@ -219,11 +219,14 @@ git reflog
 # 下载远程仓库的所有变动
 git fetch [remote]
 
-# 显示所有远程仓库
+# 显示所有关联的远程仓库
 git remote -v
 
 # 显示某个远程仓库的信息
 git remote show [remote]
+
+# 移除远程仓库origin
+git remote rm origin   
 
 # 增加一个新的远程仓库，并命名
 git remote add [shortname] [url]
